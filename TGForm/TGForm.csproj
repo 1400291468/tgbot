@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Icons\2j92t-xs66w-001.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Icons\2j92t-xs66w-001.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.11" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.48.0" />
+    <PackageReference Include="SqlSugarCore" Version="5.1.4.217" />
+    <PackageReference Include="StarkSoftProxy" Version="1.6.0" />
+    <PackageReference Include="WTelegramClient" Version="4.4.8" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+# 编译产出
+bin/
+obj/
+
+# 日志
+Logs/
+*.log
+
+# 用户配置
+*.user
+
+#系统配置
+Thumbs.db
+.DS_Store
+
+# Visual Studio 本地缓存
+.vs/
